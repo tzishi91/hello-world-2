@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To Do App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>To Do App</h1>
+
+    <div class="project-bar">
+      <select id="project-select" aria-label="Select project"></select>
+      <button id="add-project-btn" class="btn-secondary">+ New Project</button>
+      <button id="delete-project-btn" class="btn-danger">Delete Project</button>
+    </div>
+
+    <div class="task-input">
+      <input type="text" id="task-input" placeholder="Enter a new task…" aria-label="New task" />
+      <button id="add-task-btn" class="btn-primary">Add Task</button>
+    </div>
+
+    <ul id="task-list" aria-label="Task list"></ul>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
